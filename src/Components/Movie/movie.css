@@ -1,0 +1,154 @@
+.movie-container{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px;
+    background: black;
+}
+.movie-img{
+    padding: 20px ;
+    
+    
+}
+
+.movie-title{
+    
+    padding: 5px;
+    padding-left: 15px;
+    
+}
+.movie-card{
+   
+    align-items: center;
+    border-radius: 20px;
+   
+}
+
+.movie-card:hover{
+  background-color: black;
+  
+}
+
+.cards__img{
+    padding: 8px;
+   width: 17rem;
+   border-radius: 18px;
+   height: 10rem;
+  
+
+}
+.movie-banner-title{
+   
+    padding: 1rem;
+  
+    
+}
+
+@media screen and (max-width:1040px){
+
+  .movie-container{
+    /* grid-template-columns: 1fr; */
+    grid-template-columns: repeat(4,1fr);
+
+  }
+
+  .cards__img{
+    padding: 3px;
+   width: 6rem;
+   height: 6rem;
+
+}
+.movie-container{
+  padding: 15px;
+}
+}
+
+@media screen and (max-width:1024px){
+
+    .movie-container{
+      /* grid-template-columns: 1fr; */
+      grid-template-columns: repeat(4,1fr);
+  
+    }
+  
+    .cards__img{
+      padding: 3px;
+     width: 6rem;
+     height: 6rem;
+  
+  }
+  .movie-container{
+    padding: 15px;
+  }
+  }
+  @media screen and (max-width:800px){
+    .cards__img{
+      /* padding: 8px; */
+     width: 7rem;
+     height: 8rem;
+  
+  }
+  }
+   
+  
+  @media  screen and (max-width:600px) {
+    .movie-container{
+      gap: 1rem;
+  
+    }
+    .cards__img{
+        padding: 8px;
+       width: 7rem;
+       height: 8rem;
+    
+    }
+  }
+  @media  screen and (max-width:600px) {
+    .movie-container{
+        grid-template-columns: repeat(2,1fr);
+   
+  
+    }
+}
+@media screen and (max-width:360px){
+
+    .movie-container{
+      /* grid-template-columns: 1fr; */
+      grid-template-columns: repeat(2,1fr);
+    }
+    .cards__img{
+        padding: 4px;
+       width: 6rem;
+       height: 7rem;
+    
+    }
+    }
+    @media screen and (max-width:320px){
+
+      .movie-container{
+        /* grid-template-columns: 1fr; */
+        grid-template-columns: repeat(2,1fr);
+      }
+      .cards__img{
+          padding: 3px;
+         width: 6rem;
+         height: 6rem;
+      
+      }
+      .movie-container{
+        padding: 15px;
+      }
+      }
+      @media screen and (max-width:280px){
+        
+        .movie-container{
+          padding: 0px;
+        }
+    
+        .cards__img{
+          padding: 2px;
+         width: 5rem;
+         height: 5rem;
+      
+      }
+    }

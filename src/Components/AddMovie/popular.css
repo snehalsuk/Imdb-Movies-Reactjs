@@ -1,0 +1,131 @@
+
+
+.banner_text_image_container{
+    display: flex;
+    background: black;
+}
+.first_banner_text{
+   
+    padding: 3rem;
+    padding-top: 10rem;
+    
+  
+}
+.banner_butt{
+    padding-top: 5rem;
+    display: flex;
+    
+}
+
+.watch_but{
+    padding: 10px;
+   
+    opacity: 0.7;
+   
+    
+}
+.danger_but{
+    padding: 10px;
+    
+    opacity: 0.7;
+   
+}
+
+.banner-container{
+    /* background: black; */
+     
+     padding-left: 10rem;
+    display: flex;
+    
+} 
+.banner-img{
+   width: 85rem;
+   height:30rem;
+   
+}
+
+
+@media screen and (max-width:1040px){
+    .banner-img{
+    
+        height: 30rem;
+        width: 65rem;
+        /* border-radius: 30px; */
+        
+    }
+}
+@media screen and (max-width:1024px){
+    .banner-img{
+    
+        height: 30rem;
+        width: 70rem;
+        /* border-radius: 30px; */
+        
+    }
+}
+
+@media screen and (max-width:800px){
+    .banner-img{
+    
+        height: 20rem;
+        width: 50rem;
+        /* border-radius: 30px; */
+        
+    }
+}
+@media screen and (max-width:600px) and (max-width:600px){
+    .banner-img{
+    
+        height: 15rem;
+        width: 35rem;
+        /* border-radius: 30px; */
+        
+    }
+   
+
+}
+@media screen and (max-width:510px) and (max-width:600px){
+    .banner-img{
+    
+        height: 15rem;
+        width: 32rem;
+        /* border-radius: 30px; */
+        
+    }
+   
+
+}
+@media screen and (max-width:414px) and (max-width:600px){
+    .banner-img{
+    
+        height: 12rem;
+        width: 26rem;
+        /* border-radius: 30px; */
+        
+    }
+   
+
+}
+@media screen and (max-width:360px){
+    .banner-img{
+    
+        height: 15rem;
+        width: 23rem;
+        /* border-radius: 30px; */
+        
+    }
+   
+
+}
+@media screen and (max-width:280px){
+    .banner-img{
+    
+        height: 15rem;
+        width: 18rem;
+        /* border-radius: 30px; */
+        
+    }
+   
+
+}
+

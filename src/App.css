@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  h6{
+    font-size: 22px;
+    line-height: 24px;
+    color: #6f34fe;
+  }
+  
+  h2{
+    font-size: 52px;
+    line-height: 54px;
+  }
+  
+  h4{
+    font-size: 26px;
+    line-height: 28px;
+  }
+  
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .bg{
+    background: #e6e8f2;
+    border-radius: 25px;
+    padding: 0.5rem;
+  }
+  
+  .h-650{
+    height: 650px;
+  }
+  
+  .alignCenter {
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .col-6{
+   
+    width: 50%;
+    
+  }
+  
+  
+  .col-4{
+    width: 33.3333333333333%;
+  }

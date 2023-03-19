@@ -1,0 +1,52 @@
+.single_container{
+    justify-content: space-evenly;
+   background-color: black;
+   
+    padding-top: 5rem;
+height: 50rem;
+
+}
+.card_img_container{
+    
+    background-color: black;
+    align-items: center;
+  
+}
+.single_title{
+    color: white;
+}
+
+.play_image{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    display: inherit;
+    
+}
+
+.play_butt{
+  
+   height: 4rem;
+   width: 5rem;
+
+}
+
+.playlist_container{
+ display: flex;
+ padding: 10px;
+gap: 5rem;
+ align-content: center;
+
+
+ 
+}
+.playlist_butt{
+    color: black;
+}
+.card_img{
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 25rem;
+    width: 40rem;
+    border-radius: 30px;
+}
